@@ -1,0 +1,28 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Sustainable Passport Digital Card</string>
+
+    <!-- Content Descriptions -->
+    <string name="facebookPage">Facebook logo</string>
+    <string name="twitterPage">Twitter logo</string>
+    <string name="InstagramPage">Instagram logo</string>
+
+    <!-- Texts used in-app -->
+    <string name="spName">Sustainable Passport Logo</string>
+    <string name="spLogo">Sustainable Passport Logo</string>
+    <string name="spUSP">Sustainable travel made easy</string>
+    <string name="spAddress">Forças Armadas Avenue, 376, 1600-077 Lisbon</string>
+    <string name="spMobile">+351 21 790 3000</string>
+    <string name="spWebsite"> www.sustainablepassport.com </string>
+    <string name="spDescription">The first digital passport with geo-location to responsible travelers.</string>
+
+    <!-- Geolocation -->
+    <string name="company_lat">38.7478413893795</string>
+    <string name="company_long">-9.153443276882172</string>
+
+    <!-- Social Media links -->
+    <string name="facebook_page">https://www.facebook.com/sustainablepassport</string>
+    <string name="twitter_page">https://twitter.com/sustainablepass</string>
+    <string name="instagram_page">https://www.instagram.com/sustainablepassport</string>
+
+</resources>

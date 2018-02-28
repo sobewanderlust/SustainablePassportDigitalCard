@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Match_parent and wrap_content specifications -->
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+
+    <!-- Margins and padding sizes -->
+    <dimen name="margin10dp">10dp</dimen>
+    <dimen name="margin12dp">12dp</dimen>
+    <dimen name="margin32dp">32dp</dimen>
+    <dimen name="margin36dp">36dp</dimen>
+    <dimen name="margin48dp">48dp</dimen>
+
+
+    <!-- Specific sizes -->
+    <dimen name="spLogoHeight">220dp</dimen>
+    <dimen name="textviewPadding">10dp</dimen>
+    <dimen name="imageviewPadding">10dp</dimen>
+    <dimen name="fontSize">13sp</dimen>
+
+</resources>

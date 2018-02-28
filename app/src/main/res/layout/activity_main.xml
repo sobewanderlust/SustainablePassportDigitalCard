@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sustainablepassportdigitalcard.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent">
+
+        <ImageView
+            android:id="@+id/spLogo"
+            android:layout_width="@dimen/wrap_content"
+            android:layout_height="@dimen/spLogoHeight"
+            android:contentDescription="@string/spLogo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/spcolorlogo" />
+
+        <TextView
+            android:id="@+id/spUSP"
+            android:layout_width="@dimen/wrap_content"
+            android:layout_height="@dimen/wrap_content"
+            android:layout_below="@id/spLogo"
+            android:layout_marginBottom="@dimen/margin12dp"
+            android:layout_marginLeft="@dimen/margin48dp"
+            android:layout_marginStart="@dimen/margin48dp"
+            android:layout_marginTop="@dimen/margin36dp"
+            android:text="@string/spUSP"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/spDescription"
+            android:layout_width="@dimen/match_parent"
+            android:layout_height="@dimen/match_parent"
+            android:layout_below="@id/spUSP"
+            android:drawableLeft="@drawable/icondescription"
+            android:drawablePadding="@dimen/margin10dp"
+            android:drawableTint="@android:color/holo_green_light"
+            android:padding="@dimen/textviewPadding"
+            android:text="@string/spDescription"
+            android:textSize="@dimen/fontSize" />
+
+        <TextView
+            android:id="@+id/spAddress"
+            android:layout_width="@dimen/match_parent"
+            android:layout_height="@dimen/match_parent"
+            android:layout_below="@id/spDescription"
+            android:drawableLeft="@drawable/iconlocation"
+            android:drawablePadding="@dimen/margin10dp"
+            android:drawableTint="@android:color/holo_green_light"
+            android:onClick="openGeolocation"
+            android:padding="@dimen/textviewPadding"
+            android:text="@string/spAddress"
+            android:textSize="@dimen/fontSize" />
+
+        <TextView
+            android:id="@+id/spMobile"
+            android:layout_width="@dimen/match_parent"
+            android:layout_height="@dimen/match_parent"
+            android:layout_below="@id/spAddress"
+            android:drawableLeft="@drawable/iconphone"
+            android:drawablePadding="@dimen/margin10dp"
+            android:drawableTint="@android:color/holo_green_light"
+            android:onClick="openSPMobile"
+            android:padding="@dimen/textviewPadding"
+            android:text="@string/spMobile"
+            android:textColorLink="@android:color/black"
+            android:textSize="@dimen/fontSize" />
+
+        <TextView
+            android:id="@+id/spWebsite"
+            android:layout_width="@dimen/match_parent"
+            android:layout_height="@dimen/match_parent"
+            android:layout_below="@id/spMobile"
+            android:drawableLeft="@drawable/iconweb"
+            android:drawablePadding="@dimen/margin10dp"
+            android:drawableTint="@android:color/holo_green_light"
+            android:onClick="openSPWebsite"
+            android:padding="@dimen/textviewPadding"
+            android:text="@string/spWebsite"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="@dimen/fontSize" />
+
+        <ImageView
+            android:id="@+id/facebook_icon"
+            style="@style/SocialMediaIconStyle"
+            android:layout_toLeftOf="@id/twitter_icon"
+            android:layout_toStartOf="@id/twitter_icon"
+            android:contentDescription="@string/facebookPage"
+            android:onClick="redirectFacebook"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/twitter_icon"
+            style="@style/SocialMediaIconStyle"
+            android:layout_below="@id/spMobile"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/twitterPage"
+            android:onClick="redirectTwitter"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/instagram_icon"
+            style="@style/SocialMediaIconStyle"
+            android:layout_toEndOf="@id/twitter_icon"
+            android:layout_toRightOf="@id/twitter_icon"
+            android:contentDescription="@string/InstagramPage"
+            android:onClick="redirectInstagram"
+            android:src="@drawable/instagram" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
+
+

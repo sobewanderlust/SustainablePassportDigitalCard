@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Theme used -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- color of app bar -->
+        <item name="colorPrimaryDark">#CDDC39</item> <!-- Color of status bar -->
+        <item name="colorAccent">@color/colorAccent
+        </item> <!-- Background color of buttons in the app -->
+    </style>
+
+    <!-- Style for Social Media Icons -->
+    <style name="SocialMediaIconStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+
+</resources>
